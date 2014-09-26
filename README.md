@@ -6,6 +6,8 @@ Hooks the password strength library zxcvbn up to a Boostrap progress bar, packag
 
 [Demo](http://martinw.net/zxcvbn-bootstrap-strength-meter)
 
+[![Image of demo](screenshot.PNG)](http://martinw.net/zxcvbn-bootstrap-strength-meter)
+
 ##Example usage
 
 ```javascript
