@@ -6,18 +6,20 @@ Hooks the password strength library zxcvbn up to a Boostrap progress bar, packag
 
 [Demo](http://martinw.net/zxcvbn-bootstrap-strength-meter)
 
+##Example usage
+
 ```javascript
 
-	<script type="text/javascript">
-		$(document).ready(function () {
-      $("#StrengthProgressBar").zxcvbnProgressBar({ passwordInput: "#Password" });
-		});
-	</script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#StrengthProgressBar").zxcvbnProgressBar({ passwordInput: "#Password" });
+	});
+</script>
 ```
 ```html
 <div class="form-group">
-<label for="Password">Password</label>
-<input type="password" class="form-control" id="Password" placeholder="Password">
+	<label for="Password">Password</label>
+	<input type="password" class="form-control" id="Password" placeholder="Password">
 </div>
 <div class="progress">
 	<div id="StrengthProgressBar" class="progress-bar"></div>
@@ -26,14 +28,14 @@ Hooks the password strength library zxcvbn up to a Boostrap progress bar, packag
 
 Additional options - userInputs, ratings
 ```javascript
-	<script type="text/javascript">
-		$(document).ready(function () {
-			var userInputs = new Array();
-			userInputs.push("john.smith@test.com");
-			$("#StrengthProgressBar").zxcvbnProgressBar({
+<script type="text/javascript">
+	$(document).ready(function () {
+		var userInputs = new Array();
+		userInputs.push("john.smith@test.com");
+		$("#StrengthProgressBar").zxcvbnProgressBar({
 			  passwordInput: "#Password",
 			  userInputs: userInputs,
 			  ratings: ["Very Weak", "Weak", "OK", "Strong", "Very strong"],});
-		});
-	</script>
+	});
+</script>
 ```
