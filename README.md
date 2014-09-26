@@ -35,7 +35,8 @@ Additional options - userInputs, ratings
 		$("#StrengthProgressBar").zxcvbnProgressBar({
 			  passwordInput: "#Password",
 			  userInputs: userInputs,
-			  ratings: ["Very Weak", "Weak", "OK", "Strong", "Very strong"],});
+			  ratings: ["Very Weak", "Weak", "OK", "Strong", "Very strong"]
+		});
 	});
 </script>
 ```
