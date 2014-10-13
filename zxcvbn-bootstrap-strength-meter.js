@@ -63,6 +63,11 @@
 					$(progressBar).html(settings.ratings[4]);
 				}
 			}
+			else {
+				$(progressBar).css('width', '0%');
+				$(progressBar).removeClass(settings.allProgressBarClasses);
+				$(progressBar).html('');
+			}
 		}
 	};
 })(jQuery);
